@@ -1,0 +1,11 @@
+sources:
+  - name: 'Test' 
+    database : 'Test'
+    schema: 'Test'
+    tables:
+      - name: 'Retail'
+
+models:
+  - name: 'Retail'
+    config:
+      materialized: 'view'
