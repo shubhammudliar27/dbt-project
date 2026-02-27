@@ -9,3 +9,6 @@ models:
   - name: 'Retail'
     config:
       materialized: 'view'
+  - name: 'Retail_agg'
+    config:
+      materialized: 'view'

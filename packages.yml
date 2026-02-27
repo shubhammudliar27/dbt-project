@@ -1,0 +1,5 @@
+# packages.yml
+
+packages:
+  - package: dbt-labs/dbt_utils
+    version: [">=1.1.0", "<2.0.0"]   # or pick any reasonably recent version, e.g. 1.1.1 or 1.2.0
